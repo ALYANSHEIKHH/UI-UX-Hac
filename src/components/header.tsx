@@ -15,10 +15,10 @@ const Navbar = () => {
       {/* Logo */}
       <div className="flex items-center">
   <img
-    src="/images/logo.png"
+    src="/logo.png"
     alt="logo"
-    width={160}
-    height={40}
+    // width={160}
+    // height={40}
     className="w-20 h-auto sm:w-28 md:w-36 lg:w-40 xl:w-48"
   />
 </div>
