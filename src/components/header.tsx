@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 w-full h-[80px] bg-white flex items-center justify-between px-4 md:px-8 lg:px-16 shadow-md z-50">
       {/* Logo */}
-      <div className="flex items-center">
+      
   <img
     src="/logo.png"
     alt="logo"
@@ -21,7 +21,6 @@ const Navbar = () => {
     // height={40}
     className="w-20 h-auto sm:w-28 md:w-36 lg:w-40 xl:w-48"
   />
-</div>
 
 
       {/* Desktop Menu */}
