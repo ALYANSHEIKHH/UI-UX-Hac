@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-import Footer from "@/components/footer";
-import Feature from "@/components/features";
-import Navbar from "@/components/header";
+import Footer from "@/components/footer"; // Ensure this path is correct
+import Feature from "@/components/features"; // Ensure this path is correct
+import Navbar from "@/components/header"; // Ensure this path is correct
 
+// Load local fonts
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",
@@ -23,18 +24,18 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <Navbar/>
-        {children}
-        <Feature/>
-        <Footer/>
+        <Navbar />
+          {children}
+        <Feature />
+        <Footer />
       </body>
     </html>
   );

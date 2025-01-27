@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import { FaFacebook, FaLinkedin, FaTwitter } from 'react-icons/fa';
 
 
 const AsgaardPage = () => {
@@ -129,7 +130,10 @@ const AsgaardPage = () => {
                             <h4>: Sofa, Chair, Home, Shop</h4>
                             <div className='flex items-center justify-start gap-3'>
                                 :
-                                <Image
+                                <FaFacebook className='text-xl text-black'/>
+                                <FaLinkedin className='text-xl text-gray-900'/>
+                                <FaTwitter className='text-xl text-gray-900'/>
+                                {/* <Image
                                     src={"/images/fb.png"}
                                     alt='fb'
                                     width={20}
@@ -146,7 +150,7 @@ const AsgaardPage = () => {
                                     alt='twi'
                                     width={20}
                                     height={20}
-                                />
+                                /> */}
                             </div>
                         </div>
                     </div>

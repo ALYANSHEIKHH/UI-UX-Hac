@@ -15,7 +15,7 @@ const Navbar = () => {
       {/* Logo */}
       
   <Image
-    src="/logo.png"
+    src="/Logo.png"
     alt="logo"
     width={160}
     height={40}
@@ -48,6 +48,7 @@ const Navbar = () => {
           height={24}
           className="w-6 h-6 cursor-pointer hover:opacity-80"
         />
+        <Link href={"/Example"}>
         <Image
           src={"/images/search-icon.svg"}
           alt="search"
@@ -55,6 +56,7 @@ const Navbar = () => {
           height={24}
           className="w-6 h-6 cursor-pointer hover:opacity-80"
         />
+        </Link>
         <Link href={"/asgaard-sofa"}>
           <Image
             src={"/images/heart-icon.svg"}
