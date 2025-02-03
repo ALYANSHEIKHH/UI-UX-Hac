@@ -12,8 +12,7 @@ const Header = () => {
   const handleToggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
-git commit -m "Your commit message here"  
-git push origin <branch-name>
+git push origin main
   return (
     <header className="fixed top-0 left-0 w-full bg-white dark:bg-black shadow-md z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-16">

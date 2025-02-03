@@ -1,7 +1,6 @@
 "use client"
 import React, { useState } from 'react';
 import Image from 'next/image';
-import { FaFacebook, FaLinkedin, FaTwitter } from 'react-icons/fa';
 
 // Mock product data (replace with Sanity data)
 const product = {
